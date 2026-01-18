@@ -8,7 +8,7 @@ from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 # 1. Cấu hình & Danh sách nhãn bệnh
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 NUM_CLASSES = 8 
-MODEL_PATH = "best_model_fast.pth"
+MODEL_PATH = "best_model_fast20e.pth"
 IMAGE_PATH = "test.jpg" 
 
 # Mapping ID sang tên bệnh thực tế
